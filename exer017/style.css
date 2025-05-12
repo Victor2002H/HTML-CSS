@@ -1,0 +1,14 @@
+body{
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;/*Alinhar na esquerda*/
+}
+h1{
+    text-align: center;/*Alinhar no centro*/
+}
+h2{
+    text-align: right; /*Alinhar na direita*/
+}
+p{
+    text-align: justify; /* Dar justicativa no Texto*/
+    text-indent: 30px; /* Dar um espaço no paragrafo*/
+}
