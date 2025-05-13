@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas=Neue&display=swap');
+@import url('https://fonts.google.com/specimen/Cal+Sans?preview.layout=grid');
+
+:root {
+     --fonte-destaque: 'Bebas Neue', 'cursive';
+     --fonte-padrao: 'Cal Sans', 'cursive';
+     --fonte1: Verdana, 'Geneva', Tahoma, sans-serif;
+     --fonte2: 'Passion One', 'cursive';
+     --fonte3: 'Sriracha', 'cursive';
+}
+
+body {
+    background-color: black;
+}
+
+header h1 {
+    font-family: var(--fonte-padrao);
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header p > a {
+    color: white;
+
+}
+
+main {
+    background-color: white;
+}
+
+.normal {
+    font-family: var(--fonte3);
+    font-size: 34px;
+}
+
+.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img01 {
+    background-image: url(../imagens/joana.jpg);
+}
+
+#img02 {
+    background-image: url(../imagens/livro.jpg);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+footer p > a {
+    color: white;
+}
